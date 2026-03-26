@@ -1,5 +1,6 @@
 import React from 'react';
-import { MapPin, Phone, Mail, MessageSquare, Instagram, Facebook, Youtube, Twitter } from 'lucide-react';
+import { MapPin, Phone, Mail, MessageSquare } from 'lucide-react';
+import { FaInstagram, FaFacebook, FaYoutube, FaTwitter } from 'react-icons/fa';
 
 export default function Kontak() {
   return (
@@ -56,13 +57,13 @@ export default function Kontak() {
           <h3 className="text-2xl font-extrabold text-blue-900 mt-14 mb-6 border-b-2 border-amber-400 pb-2 inline-block">Media Sosial Kami</h3>
           <div className="flex flex-wrap gap-4">
             <a href="#" className="flex items-center px-6 py-3 bg-gradient-to-r from-pink-500 to-purple-500 text-white rounded-full font-bold hover:shadow-lg transform hover:-translate-y-1 transition-all">
-              <Instagram className="w-6 h-6 mr-2" /> Instagram
+              <FaInstagram className="w-6 h-6 mr-2" /> Instagram
             </a>
             <a href="#" className="flex items-center px-6 py-3 bg-[#1877F2] text-white rounded-full font-bold hover:shadow-lg transform hover:-translate-y-1 transition-all">
-              <Facebook className="w-6 h-6 mr-2" /> Facebook
+              <FaFacebook className="w-6 h-6 mr-2" /> Facebook
             </a>
             <a href="#" className="flex items-center px-6 py-3 bg-[#FF0000] text-white rounded-full font-bold hover:shadow-lg transform hover:-translate-y-1 transition-all">
-              <Youtube className="w-6 h-6 mr-2" /> YouTube
+              <FaYoutube className="w-6 h-6 mr-2" /> YouTube
             </a>
           </div>
         </div>

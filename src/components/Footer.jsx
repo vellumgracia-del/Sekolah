@@ -1,5 +1,6 @@
 import React from 'react';
-import { MapPin, Phone, Mail, Instagram, Facebook, Youtube, Twitter } from 'lucide-react';
+import { MapPin, Phone, Mail } from 'lucide-react';
+import { FaInstagram, FaFacebook, FaYoutube, FaTwitter } from 'react-icons/fa';
 
 export default function Footer() {
   return (
@@ -42,10 +43,10 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-6 border-b border-blue-800 pb-2">Media Sosial</h3>
             <p className="text-blue-200 mb-6">Ikuti kami untuk update dan aktivitas terbaru dari lingkungan sekolah.</p>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-blue-800 flex items-center justify-center text-white hover:bg-amber-400 hover:text-blue-950 transition-all duration-300 hover:scale-110 shadow-lg"><Instagram className="w-5 h-5" /></a>
-              <a href="#" className="w-10 h-10 rounded-full bg-blue-800 flex items-center justify-center text-white hover:bg-amber-400 hover:text-blue-950 transition-all duration-300 hover:scale-110 shadow-lg"><Facebook className="w-5 h-5" /></a>
-              <a href="#" className="w-10 h-10 rounded-full bg-blue-800 flex items-center justify-center text-white hover:bg-amber-400 hover:text-blue-950 transition-all duration-300 hover:scale-110 shadow-lg"><Youtube className="w-5 h-5" /></a>
-              <a href="#" className="w-10 h-10 rounded-full bg-blue-800 flex items-center justify-center text-white hover:bg-amber-400 hover:text-blue-950 transition-all duration-300 hover:scale-110 shadow-lg"><Twitter className="w-5 h-5" /></a>
+              <a href="#" className="w-10 h-10 rounded-full bg-blue-800 flex items-center justify-center text-white hover:bg-amber-400 hover:text-blue-950 transition-all duration-300 hover:scale-110 shadow-lg"><FaInstagram className="w-5 h-5" /></a>
+              <a href="#" className="w-10 h-10 rounded-full bg-blue-800 flex items-center justify-center text-white hover:bg-amber-400 hover:text-blue-950 transition-all duration-300 hover:scale-110 shadow-lg"><FaFacebook className="w-5 h-5" /></a>
+              <a href="#" className="w-10 h-10 rounded-full bg-blue-800 flex items-center justify-center text-white hover:bg-amber-400 hover:text-blue-950 transition-all duration-300 hover:scale-110 shadow-lg"><FaYoutube className="w-5 h-5" /></a>
+              <a href="#" className="w-10 h-10 rounded-full bg-blue-800 flex items-center justify-center text-white hover:bg-amber-400 hover:text-blue-950 transition-all duration-300 hover:scale-110 shadow-lg"><FaTwitter className="w-5 h-5" /></a>
             </div>
           </div>
         </div>
